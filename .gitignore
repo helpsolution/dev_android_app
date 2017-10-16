@@ -9,13 +9,15 @@ com_crashlytics_export_strings.xml
 local.properties
 
 # Gradle generated files
-.gradle/
+gradle/
+.gradle/*
 
 # Signing files
 .signing/
 
 # User-specific configurations
 .idea/
+.idea/*
 *.iml
 
 
