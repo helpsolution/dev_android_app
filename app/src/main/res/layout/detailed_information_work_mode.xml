@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/activity_work_mode">
+
+        <TextView
+            android:id="@+id/day_recycler_item_1"
+            android:text="@string/Monday"
+            style="@style/activity_work_mode_1_day" />
+
+        <TextView
+            android:id="@+id/time_recycler_item_1"
+            android:text="@string/Weekdays"
+            style="@style/activity_work_mode_1_time" />
+
+        <TextView
+            android:id="@+id/day_recycler_item_2"
+            android:text="@string/Tuesday"
+            style="@style/activity_work_mode_2_day" />
+
+        <TextView
+            android:id="@+id/time_recycler_item_2"
+            android:text="@string/Weekdays"
+            style="@style/activity_work_mode_2_time" />
+
+        <TextView
+            android:id="@+id/day_recycler_item_3"
+            android:text="@string/Wednesday"
+            style="@style/activity_work_mode_3_day" />
+        <TextView
+            android:id="@+id/time_recycler_item_3"
+            android:text="@string/Weekdays"
+            style="@style/activity_work_mode_3_time" />
+
+        <TextView
+            android:id="@+id/day_recycler_item_4"
+            android:text="@string/Thursday"
+            style="@style/activity_work_mode_4_day" />
+
+        <TextView
+            android:id="@+id/time_recycler_item_4"
+            android:text="@string/Weekdays"
+            style="@style/activity_work_mode_4_time" />
+
+        <TextView
+            android:id="@+id/day_recycler_item_5"
+            android:text="@string/Friday"
+            style="@style/activity_work_mode_5_day" />
+
+        <TextView
+            android:id="@+id/time_recycler_item_5"
+            android:text="@string/Weekdays"
+            style="@style/activity_work_mode_5_time" />
+
+        <TextView
+            android:id="@+id/day_recycler_item_6"
+            android:text="@string/Saturday"
+            style="@style/activity_work_mode_6_day" />
+
+        <TextView
+            android:id="@+id/time_recycler_item_6"
+            android:text="@string/Weekend"
+            style="@style/activity_work_mode_6_time" />
+
+        <TextView
+            android:id="@+id/day_recycler_item_7"
+            android:text="@string/Sunday"
+            style="@style/activity_work_mode_7_day" />
+
+        <TextView
+            android:id="@+id/time_recycler_item_7"
+            android:text="@string/Weekend"
+            style="@style/activity_work_mode_7_time" />
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Kotlin App</string>
+    
+    <!--Bank branch-->
+    <string name="branch.bank.address">Вавилова, 23</string>
+    <string name="branch.bank.name">Доп.офис №9038/01384</string>
+    <string name="branch.bank.distance">12 км.</string>
+
+    <!--Detailed information-->
+    <string name="detailed.information.address">Вавилова, 23</string>
+    <string name="detailed.information.name">Доп.офис №9038/01384</string>
+    <string name="detailed.information.distance">12 км.</string>
+    <string name="detailed.information.title.state">Состояние</string>
+    <string name="detailed.information.state">Работает</string>
+    <string name="detailed.information.title.phone">Телефон для справок</string>
+    <string name="detailed.information.phone">+7(800) 555-55-50</string>
+
+
+    <!--Work mode-->
+    <string name="Monday">Понедельник</string>
+    <string name="Tuesday">Вторник</string>
+    <string name="Wednesday">Среда</string>
+    <string name="Thursday">Четверг</string>
+    <string name="Friday">Пятница</string>
+    <string name="Saturday">Суббота</string>
+    <string name="Sunday">Воскресенье</string>
+
+    <string name="Weekdays">10:00-19:00</string>
+    <string name="Weekend">Закрыто</string>
+
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/detailed_information_main">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/DI_activity_main_relative_top"
+        style="@style/detailed_information_header">
+
+        <TextView
+            android:id="@+id/DI_adress"
+            style="@style/detailed_information_header_address"
+            android:text="@string/branch.bank.address" />
+
+        <TextView
+            android:id="@+id/DI_name"
+            style="@style/detailed_information_header_name"
+            android:text="@string/branch.bank.name" />
+
+        <ImageView
+            android:id="@+id/icon_right"
+            android:onClick="clickDistance"
+            style="@style/detailed_information_header_icon"
+            android:src="@drawable/icon_arrow_right" />
+
+        <TextView
+            android:id="@+id/DI_distance"
+            style="@style/detailed_information_header_distance"
+            android:text="@string/branch.bank.distance" />
+
+        <View style="@style/detailed_information_header_vertical_line" />
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/DI_activity_main_relative_state"
+        style="@style/detailed_information_state">
+
+        <ImageView
+            android:id="@+id/icon_state"
+            style="@style/detailed_information_state_icon"
+            android:src="@drawable/icon_smile" />
+
+        <TextView
+            android:id="@+id/title_state"
+            style="@style/detailed_information_state_title"
+            android:text="@string/detailed.information.title.state" />
+
+        <TextView
+            android:id="@+id/state"
+            style="@style/detailed_information_state_value"
+            android:text="@string/detailed.information.state" />
+
+        <View style="@style/detailed_information_state_horiz_line" />
+    </RelativeLayout>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/DI_activity_main_relative_week_days"
+        style="@style/detailed_information_work_mode_main">
+
+        <ImageView
+            android:id="@+id/icon_clock"
+            style="@style/detailed_information_work_mode_main_icon"
+            android:src="@drawable/icon_clock" />
+
+        <LinearLayout
+            android:id="@+id/container"
+            style="@style/detailed_information_work_mode_main_linear">
+            <include
+                android:id="@+id/trt3"
+                layout="@layout/detailed_information_work_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/DI_activity_main_relative_bottom"
+        style="@style/activity_detailed_information_footer">
+
+        <ImageView
+            android:id="@+id/icon_info"
+            android:src="@drawable/icon_info"
+            style="@style/activity_detailed_information_footer_info_icon" />
+
+        <TextView
+            android:id="@+id/title_phone"
+            android:text="@string/detailed.information.title.phone"
+            style="@style/activity_detailed_information_footer_title" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:text="@string/detailed.information.phone"
+            style="@style/activity_detailed_information_footer_phone" />
+
+        <ImageView
+            android:id="@+id/icon_phone"
+            android:onClick="clickPhone"
+            android:src="@drawable/icon_phone"
+            style="@style/activity_detailed_information_footer_phone_icon" />
+    </RelativeLayout>
+
+</RelativeLayout>

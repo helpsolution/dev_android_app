@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/BranchBank_Linear">
+
+    <ImageView
+        style="@style/BranchBank_Linear_Image"
+        android:src="@drawable/icon_house" />
+
+    <LinearLayout style="@style/BranchBank_Linear_InsideLinear">
+        <TextView
+            style="@style/BranchBank_Linear_Text_Address"
+            android:text="@string/branch.bank.address" />
+        <TextView
+            style="@style/BranchBank_Linear_Text_Name"
+            android:text="@string/branch.bank.name" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/BranchBank_Linear_Text_Distance"
+        android:text="@string/branch.bank.distance" />
+
+</LinearLayout>
+
+
+
