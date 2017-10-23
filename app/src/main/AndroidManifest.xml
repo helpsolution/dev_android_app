@@ -15,7 +15,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".kotlin_lesson.DisplayMessageActivity"></activity>
+        <activity android:name=".DetailedInfoMain"></activity>
     </application>
 
 </manifest>
